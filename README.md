@@ -211,7 +211,7 @@ public class ComedyFragment extends Fragment {
 }
 ```
 
-- `RomanceFragment.java` :
+- `HororFragment.java` :
 ```
 package com.tabexperiment;
 
@@ -382,7 +382,7 @@ public class ViewAdapter extends FragmentStateAdapter {
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Romance" />
+            android:text="Horor" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
@@ -412,7 +412,7 @@ public class ViewAdapter extends FragmentStateAdapter {
         android:id="@+id/action_sinopsis"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="Sinopsis film : Pada pembukaannya, Clint Barton sedang bersama keluarganya di pertanian, namun kebahagiaan mereka hancur ketika putrinya menghilang bersamaan dengan jentikan jari Thanos yang menyebabkan kehancuran besar, menghapus separuh kehidupan di alam semesta. Avengers yang tersisa, termasuk Nebula dan Tony Stark yang kembali ke Bumi, menyusun rencana untuk mencuri kembali Batu Keabadian dan membalikkan tindakan Thanos. Namun, setelah menemukan Thanos telah menghancurkan batu tersebut, mereka berkonfrontasi dengan musuh mereka.  Lima tahun kemudian, Scott Lang kembali dari alam kuantum dan memberi tahu Avengers bahwa mereka dapat menggunakan alam kuantum untuk melakukan perjalanan waktu dan mengambil kembali batu sebelum Thanos menggunakannya. Avengers menyusun rencana dan mengumpulkan kembali anggotanya, termasuk Thor yang kehilangan semangat. Dengan Stark, mereka berhasil mengembangkan mesin waktu dan melakukan perjalanan ke masa lalu untuk mengambil kembali batu-batu keabadian.  Menghadapi berbagai tantangan dan pengorbanan, termasuk kematian Natasha Romanoff, Avengers berhasil mendapatkan batu-batu tersebut. Dalam pertempuran akhir melawan Thanos, Stark mengorbankan dirinya sendiri untuk menggunakan Batu Keabadian dan menghancurkan musuh serta pasukannya. Setelah kemenangan, beberapa anggota Avengers memilih jalannya masing-masing, sementara Captain America memilih menjalani sisa hidupnya di masa lalu bersama Peggy Carter. Sebagai gantinya, ia menyerahkan perisai dan jubah Captain America kepada Sam Wilson."
+        android:text="Sinopsis Film : Park Chang-ho (Lee Jong-suk) adalah seorang pengacara yang memiliki tingkat kemenangan sangat kecil, yakni hanya 10 persen, dalam persidangan. Karena sifatnya yang               terkenal banyak bicara, ia dijuluki Big Mouth alias bermulut besar. Namun suatu ketika, ia tidak sengaja terlibat dalam kasus pembunuhan yang mengancam jiwanya. Hal tersebut terjadi saat ia                   ditugaskan menangani kasus elit yang pada akhirnya membuatnya dilempar ke penjara dengan para pembunuh yang sedang ia selidiki. Sebab, para penyelidik menemukan sejumlah obat terlarang, uang tunai,           senjata dan barang bukti lainnya di kantor Chang-ho. Karena penemuan ini, ia pun dituduh sebagai penipu genius bernama Big Mouse."
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="16sp"
@@ -434,15 +434,15 @@ public class ViewAdapter extends FragmentStateAdapter {
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActionFragment">
+    tools:context=".ComedyFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/action_sinopsis"
+        android:id="@+id/comedy_sinopsis"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="Sinopsis film : Pada pembukaannya, Clint Barton sedang bersama keluarganya di pertanian, namun kebahagiaan mereka hancur ketika putrinya menghilang bersamaan dengan jentikan jari Thanos yang menyebabkan kehancuran besar, menghapus separuh kehidupan di alam semesta. Avengers yang tersisa, termasuk Nebula dan Tony Stark yang kembali ke Bumi, menyusun rencana untuk mencuri kembali Batu Keabadian dan membalikkan tindakan Thanos. Namun, setelah menemukan Thanos telah menghancurkan batu tersebut, mereka berkonfrontasi dengan musuh mereka.  Lima tahun kemudian, Scott Lang kembali dari alam kuantum dan memberi tahu Avengers bahwa mereka dapat menggunakan alam kuantum untuk melakukan perjalanan waktu dan mengambil kembali batu sebelum Thanos menggunakannya. Avengers menyusun rencana dan mengumpulkan kembali anggotanya, termasuk Thor yang kehilangan semangat. Dengan Stark, mereka berhasil mengembangkan mesin waktu dan melakukan perjalanan ke masa lalu untuk mengambil kembali batu-batu keabadian.  Menghadapi berbagai tantangan dan pengorbanan, termasuk kematian Natasha Romanoff, Avengers berhasil mendapatkan batu-batu tersebut. Dalam pertempuran akhir melawan Thanos, Stark mengorbankan dirinya sendiri untuk menggunakan Batu Keabadian dan menghancurkan musuh serta pasukannya. Setelah kemenangan, beberapa anggota Avengers memilih jalannya masing-masing, sementara Captain America memilih menjalani sisa hidupnya di masa lalu bersama Peggy Carter. Sebagai gantinya, ia menyerahkan perisai dan jubah Captain America kepada Sam Wilson."
+        android:text="Sinopsis Film : Yong-nam adalah seorang pria yang pernah menjadi salah satu pemanjat tebing terbaik semasa kuliahnya. Ia gagal mendapatkan pekerjaan selama bertahun-tahun. Kini, dia harus bergantung pada orang tuanya hanya untuk bertahan hidup. Untuk ulang tahun ibunya yang ke-70, dia bersikeras mengadakan pesta di Dream Garden karena kekasih lamanya, Eui-ju bekerja di sana. Apa yang dilakukan Yong-nam hanya akan membuat Eui-joo terkejut dan terkesan. Yong-nam berbohong pada Eui-joo bahwa dia sekarang memiliki karier yang sukses. Sementara itu, seorang teroris memarkir truk di dekat Cloud Garden dan mengeluarkan gas putih yang beracun. Gas tersebut dengan cepat menyebar ke sekitar dan menyebabkan kekacauan massal di kota."
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="16sp"
@@ -456,7 +456,7 @@ public class ViewAdapter extends FragmentStateAdapter {
 </FrameLayout>
 ```
 
-- `fragment_romance.xml` :
+- `fragment_horor.xml` :
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -464,7 +464,7 @@ public class ViewAdapter extends FragmentStateAdapter {
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RomanceFragment">
+    tools:context=".HororFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -475,10 +475,10 @@ public class ViewAdapter extends FragmentStateAdapter {
         android:src="@drawable/film3" />
 
     <TextView
-        android:id="@+id/romance_sinopsis"
+        android:id="@+id/horor_sinopsis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sinopsis film :  &quot;20th Century Girl&quot; mengisahkan Na Bo-ra, seorang siswi yang bersumpah untuk mengikuti Baek Hyun-jin demi sahabatnya yang sakit. Namun, Bo-ra malah jatuh cinta pada Poong Woon-ho, sahabat Hyun-jin. Dalam kebingungan cinta segitiga, Bo-ra menyembunyikan perasaannya agar tidak melukai sahabatnya yang ternyata mencintai Woon-ho. Ketika Woon-ho kembali ke Selandia Baru, Bo-ra dan Yeon-du tiba di stasiun kereta pada saat yang tepat, memungkinkan mereka mengakui perasaan mereka sebelum berpisah. Namun, Woon-ho tiba-tiba menghilang dari kehidupan Bo-ra, meninggalkan hatinya yang hancur.  Seiring waktu, Bo-ra masuk universitas dan menjalani kehidupan dewasa. Pada tahun 2019, ia menerima undangan pameran seni dari Joseph, adik laki-laki Woon-ho. Di sini, Bo-ra mengetahui bahwa Woon-ho telah meninggal dalam kecelakaan bertahun-tahun yang lalu. Joseph bersyukur pada Bo-ra karena mengenang saudaranya dan mengungkapkan bahwa momen terbahagia Woon-ho adalah bersama Bo-ra. Saat melihat video yang dibuat Woon-ho, Bo-ra merenung tentang kenangan indah yang mereka bagikan.  Dengan latar tahun 1999 dan 2019, &quot;20th Century Girl&quot; membawa penonton dalam perjalanan emosional Bo-ra yang penuh kebingungan cinta, pertemanan, dan kehilangan. Film ini menggambarkan kompleksitas hubungan manusia seiring waktu, dengan kisah yang menyentuh hati dan meninggalkan kesan mendalam."
+        android:text="Sinopsis Film : Drama Korea terbaik dan terbaru dengan retret menegangkan adalah NIGHT HAS COME. Drama ini menyoroti sekelompok siswa yang sedang melakukan retret namun berakhir menegangkan. Kisahnya tentang para siswa SMA kelas dua dipaksa untuk bermain permainan mafia dalam kehidupan nyata selama retret. Permainan mematikan tersebut membuat mereka saling mencurigai satu sama lain dan berusaha bertahan hidup. Di sisi lain, kerja sama juga harus dilakukan untuk bertahan hidup dan keluar dari tempat yang penuh misteri."
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="17sp"
