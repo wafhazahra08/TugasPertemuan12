@@ -513,7 +513,7 @@ public class ViewAdapter extends FragmentStateAdapter {
 
 > Hasil Run :
 
-
+https://github.com/wafhazahra08/TugasPertemuan12/assets/131223804/add7e7b2-f928-441f-bce2-fc72992c1008
 
 
 
